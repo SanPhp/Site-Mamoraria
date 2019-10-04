@@ -1,0 +1,656 @@
+html, body {
+	padding:0px;
+	margin:0px;
+	font-size:small;
+	display: block;
+}
+
+* {
+	font-family: 'Comfortaa_Regular';
+    src: url('fonts/Comfortaa_Regular.eot');
+    src: url('fonts/Comfortaa_Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Comfortaa_Regular.woff') format('woff'),
+         url('fonts/Comfortaa_Regular.ttf') format('truetype'),
+         url('fonts/Comfortaa_Regular.svg#Comfortaa_Regular') format('svg');
+	
+}
+
+header {
+	border: thin solid #709318;
+	width: 100%;
+	height: 50px;
+	position: relative;
+	box-shadow: 0px 3px 5px #000000;
+	-moz-box-shadow: box-shadow: 0px 3px 5px #000000;
+	-webkit-box-shadow: box-shadow: 0px 3px 5px #000000;
+	
+background: #577599; /* Old browsers */
+background: -moz-linear-gradient(top, #577599 0%, #69afe5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#577599), color-stop(100%,#69afe5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #577599 0%,#69afe5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #577599 0%,#69afe5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #577599 0%,#69afe5 100%); /* IE10+ */
+background: linear-gradient(to bottom, #577599 0%,#69afe5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#577599', endColorstr='#69afe5',GradientType=0 ); /* IE6-9 */
+}
+
+figure#logo img {
+	margin: -60px 0px 0px 0px;
+	padding: 0px;
+	border: none;	
+}
+
+
+.demas_pages {
+	background: url(../images/1.jpg) no-repeat 100%;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+
+
+nav#main {
+	position: fixed;
+	top: 96%;
+	width: 100%;
+	height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 110%;
+	box-shadow: 0px -3px 5px #000000;
+	-moz-box-shadow: box-shadow: 0px -3px 5px #000000;
+	-webkit-box-shadow: box-shadow: 0px -3px 5px #000000;
+	
+background: #69afe5; /* Old browsers */
+background: -moz-linear-gradient(top, #69afe5 0%, #577599 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#69afe5), color-stop(100%,#577599)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #69afe5 0%,#577599 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #69afe5 0%,#577599 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #69afe5 0%,#577599 100%); /* IE10+ */
+background: linear-gradient(to bottom, #69afe5 0%,#577599 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69afe5', endColorstr='#577599',GradientType=0 ); /* IE6-9 */
+
+}
+/* MENU DOWN
+nav#main ul {
+	list-style: none;
+	display: block;
+	margin: 0px 0px 0px 20px;
+}
+
+
+nav#main ul li {
+	list-style: none;
+	display: inline;
+	float: left;
+	margin: 8px 5px 5px 5px;
+	color: #fff;
+}
+
+nav#main li a {
+	color: #fff;
+	padding: 5px;
+	font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+		 letter-spacing: 2px;
+}
+
+nav#main li a:hover {
+	-webkit-transition: color 0.4s ease-out;
+	-moz-transition: color 0.4s ease-out;
+	-0-transition: color 0.4s ease-out;
+	-ms-transition: color 0.4s ease-out;
+	transition: color 0.4s ease-out;
+	color: #F00;
+	
+}
+
+/MENU DOWN */
+
+
+
+
+#menutop {
+	position: relative;
+	top: 22%;
+	left: 37%;
+	width: 395px;
+	height: 50px;
+	/*border: solid thin #000; */
+	transition: width .75s ease;
+	-webkit-transition: width .75s;
+	
+
+}
+
+nav#menutop ul {
+	list-style: none;
+	display: block;
+	
+	
+}
+
+
+nav#menutop ul li {
+	list-style: none;
+	display: inline;
+	float: left;
+	margin: 8px 5px 5px 5px;
+	color: #fff;
+}
+
+nav#menutop li a {
+	color: #fff;
+	padding: 5px;
+	font-family: 'Comfortaa_Regular';
+    src: url('fonts/Comfortaa_Regular.eot');
+    src: url('fonts/Comfortaa_Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Comfortaa_Regular.woff') format('woff'),
+         url('fonts/Comfortaa_Regular.ttf') format('truetype'),
+         url('fonts/Comfortaa_Regular.svg#Comfortaa_Regular') format('svg');
+		 text-shadow: 2px 2px 3px #000;
+		 font-size: 130%;
+}
+
+nav#menutop li a:hover {
+	-webkit-transition: color 0.4s ease-out;
+	-moz-transition: color 0.4s ease-out;
+	-0-transition: color 0.4s ease-out;
+	-ms-transition: color 0.4s ease-out;
+	transition: color 0.4s ease-out;
+	color: #A7D2FE;
+	
+}
+
+
+.demas_pages #allcontent {
+	width: 900px;
+	height: auto;
+	border: 4px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 70px;
+	background-color: #FFF;
+	border-radius: 7px;
+	box-shadow: 0 0 5px 5px #F0F0F0;
+}
+
+.demas_pages #allcontent h1 {
+	width: 800px;
+	height: 30px;
+	background-color: #3B3B3B;
+	font-size: 200%;
+	text-align: right;
+	color: #66ABDF;
+	padding: 3px 30px 0px 30px;
+	margin: 6% auto 0px auto;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 7px #000;
+}
+
+#menutop [alt="facebook"] {
+	position: relative;
+	top: -6px;
+	left: 65%;
+}
+
+
+/* ------CATALOGO------ */
+
+
+#allcontent h2 { 
+ 	width: 800px;
+	height: 30px;
+	background-color: #3B3B3B;
+	font-size: 200%;
+	text-align: right;
+	color: #66ABDF;
+	padding: 3px 20px 0px 0px;
+	margin: 6% auto 0px auto;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 7px #000;
+}
+
+#allcontent h2 a {
+	text-shadow: 2px 2px 7px #000;
+	color: #66ABDF;
+}
+
+#allcontent h2 a:hover {
+	text-shadow: 2px 2px 7px #000;
+	color: #66ABDF;
+	text-decoration: underline;
+}
+
+
+.catalogo {
+	width: 800px;
+	height: 500px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.catalogo .catalogo_indice_ambientes {
+	width: 270px;
+	height: 420px;
+	border-top: 50px solid #3B3B3B;
+	border-bottom: 10px solid #3B3B3B;
+	margin: 15px 50px 30px 68px;
+	float: left;
+	box-sizing: border-box;
+	background: url(../estru/bg_catalogo_ambientes.jpg) no-repeat top center;
+	transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-ms-transition: all ease 0.4s;
+	-o-transition: all ease 0.4s;
+	-webkit-transition: all ease 0.4s;
+}
+
+.catalogo .catalogo_indice_ambientes:hover {
+	width: 270px;
+	height: 420px;
+	border-top: 60px solid #3B3B3B;
+	border-bottom: 10px solid #3B3B3B;
+	margin: 15px 50px 30px 68px;
+	float: left;
+	box-sizing: border-box;
+	background: url(../estru/bg_catalogo_ambientes.jpg) no-repeat top center;
+	box-shadow: 0px 0px 10px 7px #B0D8FF;
+}
+
+.catalogo .catalogo_indice_pedras {
+	width: 270px;
+	height: 420px;
+	border-top: 50px solid #3B3B3B;
+	border-bottom: 10px solid #3B3B3B;
+	margin: 15px 50px 30px 68px;
+	float: left;
+	box-sizing: border-box;
+	background: url(../estru/bg_catalogo_pedra.jpg) no-repeat top center;
+	transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-ms-transition: all ease 0.4s;
+	-o-transition: all ease 0.4s;
+	-webkit-transition: all ease 0.4s;
+}
+
+.catalogo .catalogo_indice_pedras:hover {
+	width: 270px;
+	height: 420px;
+	border-top: 60px solid #3B3B3B;
+	border-bottom: 10px solid #3B3B3B;
+	margin: 15px 50px 30px 68px;
+	float: left;
+	box-sizing: border-box;
+	background: url(../estru/bg_catalogo_pedra.jpg) no-repeat top center;
+	box-shadow: 0px 0px 10px 7px #B0D8FF;
+}
+
+
+.catalogo .catalogo_indice_ambientes h4 {
+	position: relative;
+	top: -37px;
+	left: 73px;
+	color: #66ABDF;
+	font-size: 25px;
+	text-shadow: 4px 4px 2px #000;
+}
+
+.catalogo .catalogo_indice_pedras h5 {
+	position: relative;
+	top: -37px;
+	left: 90px;
+	color: #66ABDF;
+	font-size: 25px;
+	text-shadow: 4px 4px 2px #000;
+}
+
+section.catalogo_indice {
+	width: 800px;
+	height: auto;
+	margin: 40px auto 0px auto;
+}
+
+
+section.catalogo_indice .catalogo_indice_titulo {
+	width: 800px;
+	height: 90px;
+	background-color: #3B3B3B;
+	margin: 0px 0px 20px 0px;
+}
+
+section.catalogo_indice .catalogo_indice_titulo h6 a {
+	font-size: 300%;
+	text-align: left;
+	color: #66ABDF;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 7px #000;
+	position: relative;
+	top: 28px;
+	left: 30px;
+	transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-ms-transition: all ease 0.4s;
+	-o-transition: all ease 0.4s;
+	-webkit-transition: all ease 0.4s;
+	
+
+}
+
+section.catalogo_indice .catalogo_indice_titulo h6 a:hover {
+	font-size: 310%;
+	text-align: left;
+	color: #66ABDF;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 15px #E7DBAB;
+	position: relative;
+	top: 28px;
+	left: 40px;
+	transition: all ease 0.4s;
+	
+
+}
+
+
+section.pedras {
+	width: 800px;
+	height: auto;
+	margin: 40px auto 0px auto;
+}
+
+figure.pedras_lista {
+	width: 800px;
+	height: 100px;
+	background-color: #3b3b3b;
+	margin: 0px auto 15px auto;
+}
+
+figure.pedras_lista img {
+	position: relative;
+	left: 140px;
+	
+}
+
+figure.pedras_lista figcaption {
+	width: 138px;
+	height: 60px;
+	position: relative;
+	top: -103px;
+	padding: 40px 0px 0px 0px;
+	text-align: center;
+	font-size: 130%;
+	font-weight: 900;
+	color: #66ABDF;
+	text-shadow: 2px 2px 7px #000;
+	
+}
+
+
+.galeria {
+	width: 800px;
+	height: auto;
+	margin: 50px auto 0px auto;
+	text-align: center;
+}
+
+.galeria figure.ambiente {
+	width: 110px;
+	height: 78px;
+	border: 3px solid #3b3b3b;
+	border-radius: 4px;
+	float: left;
+	margin: 10px 10px 10px 34px;
+	overflow: hidden;
+}
+
+/* ---- A EMPRESA ---- */
+
+section.aempresa {
+	width: 800px;
+	height: 300px;
+	border: 1px solid black;
+	margin: 30px auto 20px auto;
+	background-color: #3B3B3B;
+}
+
+
+section.aempresa p {
+	font-size: 140%;
+	color: #66ABDF;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 7px #000;
+	padding: 20px;
+	text-align: justify;
+}
+
+section.aempresa p:first-letter {
+	font-size: 25px;
+}
+
+
+/* ---------------------CONTATO--------------------------*/
+section#contato{
+	position: relative;
+	height: 500px;
+	top: 5%;
+	left: 0%;
+}
+
+
+textarea{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:340px;
+	box-shadow: -1px -1px 2px #000;
+	-moz-box-shadow: -1px -1px 2px #000;
+	-webkit-box-shadow:-1px -1px 2px #000;
+	
+}
+
+input {
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:340px;
+	height: 40px;
+	box-shadow: -1px -1px 2px #000;
+	-moz-box-shadow: -1px -1px 2px #000;
+	-webkit-box-shadow:-1px -1px 2px #000;
+}
+
+textarea:hover {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	box-shadow: 2px 2px 10px #333;
+	-moz-box-shadow: box-shadow: 2px 2px 10px #333;
+	-webkit-box-shadow: box-shadow: 2px 2px 10px #333;
+}
+
+textarea:focus {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	box-shadow: 2px 2px 10px #333;
+	-moz-box-shadow: box-shadow: 2px 2px 10px #333;
+	-webkit-box-shadow: box-shadow: 2px 2px 10px #333;
+}
+
+input:hover {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	box-shadow: 2px 2px 10px #333;
+	-moz-box-shadow: box-shadow: 2px 2px 10px #333;
+	-webkit-box-shadow: box-shadow: 2px 2px 10px #333;
+}
+
+input:focus {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	box-shadow: 2px 2px 10px #333;
+	-moz-box-shadow: box-shadow: 2px 2px 10px #333;
+	-webkit-box-shadow: box-shadow: 2px 2px 10px #333;
+}
+
+#submit {
+	width:340px;
+}
+
+label {
+	font-family: 'Comfortaa_Regular';
+    src: url('fonts/Comfortaa_Regular.eot');
+    src: url('fonts/Comfortaa_Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Comfortaa_Regular.woff') format('woff'),
+         url('fonts/Comfortaa_Regular.ttf') format('truetype'),
+         url('fonts/Comfortaa_Regular.svg#Comfortaa_Regular') format('svg');
+		 font-weight: bolder;
+		 color: #597CA2;
+		 font-size: 150%;
+}
+
+#allcontent #contato {
+	position: relative;
+	top: 10%;
+	
+	
+}
+
+#contato a {
+	color: #597CA2;
+	margin: 0px 0px -20px 30px;
+	font-size: 130%;
+}
+
+
+#contato p {
+	margin: 0px 0px 0px 30px;
+	font-size: 130%;
+}
+
+
+#mapa_localizacao {
+	width: 470px;
+	height: 400px;
+	float: right;
+	position: relative;
+	top: 29px;
+	right: 3%;
+	text-align: center;
+
+}
+
+#endereco {
+	width: 470px;
+	height: 150px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 1px 1px 15px #999;
+	box-shadow: 1px 1px 15px #999;
+	-moz-box-shadow: 1px 1px 10px #999;
+	-ms-box-shadow: 1px 1px 10px #999;
+	-o-box-shadow: 1px 1px 10px #999;
+	-webkit-box-shadow: 1px 1px 10px #999;	
+
+	
+}
+
+
+#localizacao {
+	width: 470px;
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px;
+	box-shadow: 1px 1px 15px #999;
+	-moz-box-shadow: 1px 1px 10px #999;
+	-ms-box-shadow: 1px 1px 10px #999;
+	-o-box-shadow: 1px 1px 10px #999;
+	-webkit-box-shadow: 1px 1px 10px #999;
+	
+}
+
+
+#endereco table {
+	border-collapse: separate;
+	border-spacing:6px;
+	text-align: left;
+	font-family: 'Comfortaa_Regular';
+    src: url('fonts/Comfortaa_Regular.eot');
+    src: url('fonts/Comfortaa_Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Comfortaa_Regular.woff') format('woff'),
+         url('fonts/Comfortaa_Regular.ttf') format('truetype'),
+         url('fonts/Comfortaa_Regular.svg#Comfortaa_Regular') format('svg');
+		 font-weight: 500;
+		 font-size: 130%;	
+		 color: #597CA2;
+		 
+}
+
+#endereco table th {
+	font-weight: 800;
+	color: #00509F;
+	letter-spacing: 1px;
+}
+
+/* ---------------------/CONTATO--------------------------*/
+
+
+
+/*----FOOTER-----*/
+
+
+footer {
+	width: 100%;
+	height: 25px;
+	margin: 0 auto;
+	margin-top: 6px;
+	font-size: 100%;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 1px;	
+	text-align: center;
+	
+	
+}
+
+footer [alt="HRS-WEB"] {
+	float: right;
+	margin: 0px 20px 0px 0px;
+	position: relative;
+	bottom: 15px;
+	
+}
+
+
+
+
+
+	
+
+
+
+
+	
+
+
